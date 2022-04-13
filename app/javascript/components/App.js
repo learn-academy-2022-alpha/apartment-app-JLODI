@@ -1,16 +1,18 @@
 import React from "react"
-import PropTypes from "prop-types"
 import {
   BrowserRouter as  Router,
   Route,
   Switch
 } from 'react-router-dom'
 
+import Home from './pages/Home'
+
 class App extends React.Component {
   render () {
     return (
-      <React.Fragment>
-      </React.Fragment>
+      <>
+            <Home />
+      </>
     );
   }
 }
