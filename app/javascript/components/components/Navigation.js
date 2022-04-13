@@ -25,23 +25,23 @@ class Navigation extends Component {
                 </NavbarBrand>
                 <NavbarToggler onClick={function noRefCheck(){}} />
                 <Collapse navbar>
-                <Nav
-                    className="me-auto"
-                    navbar
-                >
-                    <NavItem>
-                    <NavLink className="nav-link" to="/">
-                        Home
-                    </NavLink>
-                    </NavItem>
-                    <NavItem>
-                    <NavLink className="nav-link" to="/test">
-                        Sign Up
-                    </NavLink>
-                    </NavItem>
-                </Nav>
-                <NavbarText>
-                </NavbarText>
+                    <Nav
+                        className="me-auto"
+                        navbar
+                    >
+                        <NavItem>
+                            <NavLink className="nav-link" to="/">
+                                Home
+                            </NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink className="nav-link" to="/test">
+                                Sign Up
+                            </NavLink>
+                        </NavItem>
+                    </Nav>
+                    <NavbarText>
+                    </NavbarText>
                 </Collapse>
             </Navbar>
         </div>
