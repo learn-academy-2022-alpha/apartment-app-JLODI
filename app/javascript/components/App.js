@@ -5,13 +5,21 @@ import {
   Switch
 } from 'react-router-dom'
 
+import Navigation from './components/Navigation'
 import Home from './pages/Home'
+import NotFound from './components/NotFound'
 
 class App extends React.Component {
   render () {
     return (
       <>
-            <Home />
+        <Router>
+          <Navigation />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route component={NotFound}/>
+          </Switch>
+        </Router>
       </>
     );
   }
