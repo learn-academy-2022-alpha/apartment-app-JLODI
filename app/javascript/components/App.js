@@ -14,7 +14,7 @@ class App extends React.Component {
     return (
       <>
         <Router>
-          <Navigation />
+          <Navigation {...this.props} />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route component={NotFound}/>
