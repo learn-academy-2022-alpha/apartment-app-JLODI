@@ -5,7 +5,8 @@ import {
     CardGroup, 
     CardImg, 
     CardBody, 
-    CardSubtitle,} from 'reactstrap'
+    CardSubtitle,
+} from 'reactstrap'
 import { NavLink } from 'react-router-dom'
 
 class ApartmentIndex extends Component {

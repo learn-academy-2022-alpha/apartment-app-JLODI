@@ -24,7 +24,7 @@ class App extends React.Component {
   }
   
   readApart = () => {
-    fetch("http://localhost:3000/apartments")
+    fetch("/apartments")
     .then(response => response.json())
     // set the state with the data from the backend into the empty array
     .then(payload => this.setState({apartments: payload}))
