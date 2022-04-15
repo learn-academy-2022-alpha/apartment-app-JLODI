@@ -44,7 +44,7 @@ class Navigation extends Component {
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" to="/test">
+                                <NavLink className="nav-link" to="/apartmentindex">
                                     Browse Apartments
                                 </NavLink>
                             </NavItem>
